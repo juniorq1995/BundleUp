@@ -72,10 +72,8 @@
 											below to find a drop-box location for coats and blankets
 											or <a href="mailto:uwmadisonbundleup@gmail.com">contact us</a> and we will come and pick up the items at your convenience!</h3>
 									</header>
-									<div class="google-maps">
-										<iframe width="1200" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-										src="https://www.google.com/maps/embed/v1/view?zoom=10&center=43.0731,-89.4012&key=AIzaSyCEzzSvQHospKANWtejZse2uk0KmlROaE4"></iframe>
-									</div>
+
+									<div id="map" class="googleMap"></div>
 
 									<h3>If you are looking to get involved in our volunteer events please follow us on social media
 									so you can stay well-informed</h3>
@@ -186,6 +184,8 @@
 		</div>
 
 		<!-- Scripts -->
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB34IXrAdmq7fgEkkF3JUzCTGe7k95CCH0&callback=initMap" type="text/javascript"></script>
+			<script src="assets/js/googleMap.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
