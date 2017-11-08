@@ -47,6 +47,31 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	/* Custom Styling */
+	h2.staffTitle {
+		margin-bottom:10px;
+	}
+	#staffList p.redRoundish{
+	    color: #FFFFFF;
+	    padding: 5px 10px;
+	    background: #AD0C45;
+	    display: inline-block;
+	    border-radius: 10px;
+			margin-right: 10px;
+			font-weight: normal;
+	}
+	#staffList{
+		display: flex;
+	}
+	#staffList p{
+		color: #FFFFFF;
+		padding: 5px 10px;
+		background: #00479D;
+		display: inline-block;
+		border-radius: 10px;
+		margin-right: 10px;
+		font-weight: normal;
+	}
 
 /* Box Model */
 
